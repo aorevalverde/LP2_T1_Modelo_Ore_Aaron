@@ -40,7 +40,7 @@ public class OrdenSoporte {
 	
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id_tecnico")
-	private Tecnico idTecnico;
+	private Tecnico tecnico;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id_cliente")
