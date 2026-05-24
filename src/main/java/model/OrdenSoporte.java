@@ -16,7 +16,9 @@ import javax.persistence.Table;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.ManyToAny;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
@@ -24,6 +26,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @DynamicInsert
+@AllArgsConstructor
+@NoArgsConstructor
 public class OrdenSoporte {
 	
 	@Id
